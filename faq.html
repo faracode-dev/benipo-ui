@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/output.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="tw-flex tw-flex-col tw-items-center tw-w-full">
+    <header class="tw-w-full tw-border-b">
+      <div class="tw-container tw-mx-auto tw-flex lg:tw-block tw-w-full tw-items-center tw-px-6 lg:tw-px-0">
+        <nav class="tw-flex tw-items-center tw-gap-5 tw-py-6">
+          <div class="tw-flex tw-items-center tw-gap-4 tw-w-full lg:tw-w-3/4 xl:tw-w-1/2">
+            <a href="./index.html" class="">
+              <img src="./public/assets/Logo.svg" alt="logo">
+              <span class="tw-font-medium tw-text-xs tw-whitespace-nowrap tw-hidden lg:tw-inline">
+                فروشگاه لوازم خانگی بنیپو
+              </span>
+            </a>
+            <label
+              class="tw-hidden md:tw-flex tw-mr-auto tw-w-full tw-border tw-border-gray-300/50 tw-text-gray-900 tw-text-sm tw-rounded-lg focus:tw-ring-blue-500 focus:tw-border-blue-500 tw-p-2.5 tw-bg-gray-100/30">
+              <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="24" height="24"
+                fill="none" viewBox="0 0 24 24">
+                <circle cx="11.059" cy="11.059" r="7.062" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.5"></circle>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m20.003 20.003-3.951-3.951">
+                </path>
+              </svg>
+              <input type="text"
+                class="placeholder:tw-text-sm placeholder:tw-font-normal placeholder:tw-text-gray-400 tw-outline-none tw-bg-gray-100/30">
+            </label>
+          </div>
+          <div class="tw-hidden tw-gap-3 tw-items-center tw-mr-auto lg:tw-flex">
+            <button class="tw-text-gray-900 tw-flex tw-gap-3 tw-w-full">
+              <a href="./login.html" class="tw-border tw-auto tw-rounded-lg tw-px-2.5 tw-py-2 hover:tw-text-sky-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline hover:tw-stroke-sky-700" width="20" height="20"
+                  fill="none" viewBox="0 0 20 20">
+                  <path stroke="currentColor" stroke-linecap=" round" stroke-linejoin="round" stroke-width="1.25"
+                    d="M15.833 17.5v-1.667A3.333 3.333 0 0 0 12.5 12.5h-5a3.333 3.333 0 0 0-3.333 3.333V17.5M10 9.167A3.333 3.333 0 1 0 10 2.5a3.333 3.333 0 0 0 0 6.667Z">
+                  </path>
+                </svg>
+                <span class="tw-text-sm">
+                  ورود|ثبت نام
+                </span>
+              </a>
+            </button>
+            <span class="tw-w-px tw-h-8 tw-block tw-bg-gray-200"></span>
+            <a href="./cart.html" type="button"
+              class="tw-relative tw-inline-flex tw-items-center tw-p-3 tw-text-sm tw-font-medium tw-text-center tw-text-white hover:tw-text-sky-700">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"
+                class="hover:tw-text-sky-700 tw-text-black">
+                <path stroke="currentColor" stroke-linecap=" round" stroke-linejoin="round" stroke-width="1.25"
+                  d="M5 1.667 2.5 5v11.667a1.667 1.667 0 0 0 1.667 1.666h11.666a1.667 1.667 0 0 0 1.667-1.666V5L15 1.667H5ZM2.5 5h15">
+                </path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                  d="M13.333 8.333a3.334 3.334 0 0 1-6.666 0"></path>
+              </svg>
+              <div
+                class="tw-absolute tw-inline-flex tw-items-center tw-justify-center tw-w-5 tw-h-5 tw-text-xs tw-font-bold tw-text-white tw-bg-red-500 tw-rounded-md tw-top-0 tw-end-0">
+                20
+              </div>
+            </a>
+          </div>
+        </nav>
+        <nav class="tw-hidden lg:tw-flex tw-pt-3 tw-w-full tw-items-center">
+          <ul class="tw-text-sm tw-flex tw-items-center tw-space-x-6 tw-space-x-reverse">
+            <li>
+              <a href="./all-products.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-4 tw-rounded-t-md tw-flex tw-justify-center tw-items-center tw-bg-gray-100 tw-font-semibold tw-transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-ml-1 tw-stroke-current" width="16"
+                  height="16" fill="none" viewBox="0 0 16 16">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                    d="M2.667 8h10.666M2.667 4h10.666M2.667 12h10.666"></path>
+                </svg>
+                دسته بندی
+              </a>
+            </li>
+            <li>
+              <a href="./contact-us.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-1 tw-font-medium tw-text-gray-900 tw-transition-colors">
+                تماس با ما
+              </a>
+            </li>
+            <li>
+              <a href="./about-us.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-1 tw-font-medium tw-text-gray-900 tw-transition-colors">
+                درباره ما
+              </a>
+            </li>
+            <li>
+              <a href="./faq.html" class="tw-py-3 tw-text-sky-700 tw-px-1 tw-font-medium tw-transition-colors">
+                سوالات متداول
+              </a>
+            </li>
+          </ul>
+          <div class="tw-text-sm tw-font-normal tw-text-gray-700 tw-mr-auto tw-align-middle">
+            <span class="after:tw-content-[':'] tw-font-medium"> پشتیبانی </span>
+            <a class="hover:tw-text-sky-700" href="#">02176584782</a>
+          </div>
+        </nav>
+        <div class="tw-mr-auto tw-inline lg:tw-hidden" @click="open = true">
+          <button class="tw-navbar-burger tw-flex tw-items-center tw-text-gray-600 hover:tw-text-sky-700">
+            <svg class="tw-block tw-h-4 tw-w-4 tw-fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <nav class="tw-hidden">
+          <nav class="tw-relative tw-px-4 tw-py-4 tw-flex tw-justify-center tw-items-center tw-bg-white">
+            <a href="./index.html" class="tw-flex tw-items-center tw-ml-auto">
+              <img src="./assets/images/logo.svg" alt="" class="h-6 sm:h-9">
+            </a>
+            <div class="tw-relative tw-w-full  md:tw-inline mr-4">
+              <div
+                class="tw-absolute tw-inset-y-0 tw-start-0 tw-flex tw-text-gray-300 tw-items-center tw-ps-3 tw-pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" class="tw-w-5 tw-h-5">
+                  <path
+                    d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                  </path>
+                </svg>
+              </div>
+              <input type="search" id="simple-search"
+                class="bg-gray-100 text-gray-900 text-xs font rounded-lg outline-none block w-96 ps-10 p-3"
+                placeholder="جستجو براساس  نام محصول و دسته بندی" required="">
+            </div>
+            <div class="tw-mr-auto" @click="open = true">
+              <button class="tw-navbar-burger tw-flex tw-items-center tw-text-gray-600 tw-p-3">
+                <svg class="tw-block tw-h-4 tw-w-4 tw-fill-current" viewbox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+              </button>
+            </div>
+          </nav>
+          <div class="tw-navbar-menu tw-relative tw-z-50" x-show="open"
+            x-transition:enter="transition origin-top ease-out duration-300"
+            x-transition:enter-start="transform -translate-y-full opacity-0"
+            x-transition:enter-end="transform translate-y-0 opacity-100"
+            x-transition:leave="transition origin-top ease-out duration-300" x-transition:leave-start="opacity-100"
+            x-transition:leave-end="opacity-0">
+            <div class="tw-navbar-backdrop tw-fixed tw-inset-0 tw-bg-gray-800 tw-opacity-25"></div>
+            <nav
+              class="tw-fixed tw-top-0 tw-left-0 tw-bottom-0 tw-flex tw-flex-col tw-w-5/6 tw-max-w-sm tw-py-6 tw-px-6 tw-bg-white tw-border-r tw-overflow-y-auto">
+              <div class="tw-flex tw-items-center tw-mb-8">
+                <div class="tw-relative tw-w-full md:tw-hidden">
+                  <div
+                    class="tw-absolute tw-inset-y-0 tw-start-0 tw-flex tw-text-gray-300 tw-items-center tw-ps-3 tw-pointer-events-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor"
+                      class="tw-w-5 tw-h-5">
+                      <path
+                        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                      </path>
+                    </svg>
+                  </div>
+                  <input type="search" id="simple-search"
+                    class="tw-bg-gray-100 tw-text-gray-900 tw-text-xs tw-font tw-rounded-lg tw-w-full tw-outline-none tw-block tw-ps-10 tw-p-3"
+                    placeholder="جستجو براساس  نام محصول و دسته بندی" required="">
+                </div>
+                <button class="tw-navbar-close tw-mr-4" @click="open = false">
+                  <svg class="tw-h-6 tw-w-6 tw-text-gray-600 tw-cursor-pointer hover:tw-opacity-40"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+              <div>
+                <ul>
+                  <li class="tw-mb-1">
+                    <a class="tw-block tw-p-4 tw-text-sm tw-font-semibold tw-text-gray-600 hover:tw-opacity-40 tw-rounded"
+                      href="./index.html">خانه</a>
+                  </li>
+                  <li class="tw-mb-1">
+                    <a class="tw-block tw-p-4 tw-text-sm tw-font-semibold tw-text-gray-600 hover:tw-opacity-40 tw-rounded"
+                      href="./about-us.html">درباره ما</a>
+                  </li>
+                  <li class="tw-mb-1">
+                    <a class="tw-block tw-p-4 tw-text-sm tw-font-semibold tw-text-gray-600 hover:tw-opacity-40 tw-rounded"
+                      href="./contact-us.html">تماس باما</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tw-mt-auto">
+                <a href="./profile.html"
+                  class="tw-py-2 tw-px-5 tw-flex tw-justify-center tw-gap-2 tw-text-sm tw-font-medium tw-text-gray-900 focus:tw-outline-none tw-bg-white tw-rounded-lg tw-border tw-border-gray-200 hover:tw-bg-gray-100 hover:tw-text-blue-700 focus:tw-z-10 focus:tw-ring-4 focus:tw-ring-gray-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-5 tw-h-5 tw-inline" viewbox="0 0 24 24"
+                    fill="currentColor">
+                    <path
+                      d="M20 22H18V20C18 18.3431 16.6569 17 15 17H9C7.34315 17 6 18.3431 6 20V22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13ZM12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z">
+                    </path>
+                  </svg>
+                  <div>
+                    پروفایل من
+                  </div>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="tw-w-full tw-container tw-px-6 lg:tw-px-0 tw-flex tw-justify-center tw-items-center tw-py-6">
+      <div class="tw-w-full tw-flex tw-flex-col tw-gap-5">
+        <div class="tw-flex tw-flex-col tw-gap-3 tw-w-full tw-justify-center tw-items-center">
+          <img src="./public/assets/question.svg" class="tw-w-9 tw-h-9">
+          <h1 class="tw-text-sky-800 tw-font-semibold tw-text-lg">سوالات متداول</h1>
+        </div>
+        <button class="tw-border tw-p-3 tw-w-full tw-flex tw-items-center tw-justify-between tw-rounded-xl">
+          <p class="tw-text-gray-900 tw-text-sm tw-font-semibold">
+            چطور می‌توانم سفارشم را پیگیری کنم؟
+          </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="m5 7.5 5 5 5-5" />
+          </svg>
+        </button>
+        <div class="tw-border tw-p-3 tw-w-full tw-flex tw-flex-col tw-gap-4 tw-rounded-xl">
+          <button class="tw-flex tw-items-center tw-justify-between">
+            <p class="tw-text-gray-900 tw-text-sm tw-font-semibold">
+              چطور میتوانم سفارشم را لغو کنم ؟
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+              <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                d="m5 7.5 5 5 5-5" />
+            </svg>
+          </button>
+          <div class="tw-text-gray-500 tw-text-sm tw-leading-7">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+            چاپ،
+            و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.لورم ایپسوم
+            متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+            با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.لورم
+            ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.
+          </div>
+        </div>
+        <button class="tw-border tw-p-3 tw-w-full tw-flex tw-items-center tw-justify-between tw-rounded-xl">
+          <p class="tw-text-gray-900 tw-text-sm tw-font-semibold">
+            میتوانم سفارشم را بصورت اقساطی ( اعتباری ) پرداخت کنم؟
+          </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="m5 7.5 5 5 5-5" />
+          </svg>
+        </button>
+        <button class="tw-border tw-p-3 tw-w-full tw-flex tw-items-center tw-justify-between tw-rounded-xl">
+          <p class="tw-text-gray-900 tw-text-sm tw-font-semibold">
+            هزینه ی ارسال در بنیپو چگونه محاسبه میشود؟
+          </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="m5 7.5 5 5 5-5" />
+          </svg>
+        </button>
+        <button class="tw-border tw-p-3 tw-w-full tw-flex tw-items-center tw-justify-between tw-rounded-xl">
+          <p class="tw-text-gray-900 tw-text-sm tw-font-semibold">
+            چطور درخواست خود را جهت بازگرداندن کالا (مرجوعی کالا)
+            به شما
+            اطلاع دهم؟
+          </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="m5 7.5 5 5 5-5" />
+          </svg>
+        </button>
+        <button class="tw-border tw-p-3 tw-w-full tw-flex tw-items-center tw-justify-between tw-rounded-xl">
+          <p class="tw-text-gray-900 tw-text-sm tw-font-semibold">
+            شرایط گارانتی بنیپو
+          </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="m5 7.5 5 5 5-5" />
+          </svg>
+        </button>
+      </div>
+    </main>
+    <footer class="tw-w-full tw-border-t tw-bg-gray-100 tw-border-gray-30 tw-flex tw-pb-16 lg:tw-pb-0">
+      <div class="tw-container tw-mx-auto tw-py-8">
+        <div class="tw-grid tw-col-span-1 md:tw-col-span-2 tw-px-6 lg:tw-grid-cols-5 tw-gap-y-6 lg:tw-gap-6">
+          <div class="tw-col-span-1 md:tw-col-span-2">
+            <div>
+              <a href="#">
+                <img src="./public/assets/Logo.svg" alt="logo" class="tw-pb-4 tw-border-b tw-border-gray-300">
+              </a>
+            </div>
+            <div class="tw-mx-auto">
+              <p class="tw-text-gray-500 tw-text-sm tw-whitespace-normal">
+                یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+                متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست
+                مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛
+                ویژگی‌هایی
+                که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و
+                توانسته از این طریق مشتریان ثابت خود را داشته باشد. فروشگاه
+                اینترنتی بنیپو با تنوعی بی نظیر از کالاها و قیمت های بی نظیر به
+                دنبال تسهیل خرید سریع و آسان شما میباشد.
+              </p>
+            </div>
+          </div>
+          <div class="tw-flex tw-flex-col tw-gap-3">
+            <h5 class="tw-text-gray-700 tw-font-semibold tw-text-base">صفحات</h5>
+            <ul class="tw-text-gray-700 tw-font-normal tw-text-sm tw-flex tw-flex-col tw-gap-5">
+              <li><a href="./index.html" class="hover:tw-text-sky-700">صفحه اصلی</a></li>
+              <li><a href="./all-products.html" class="hover:tw-text-sky-700">فروشگاه</a></li>
+              <li><a href="./faq.html" class="hover:tw-text-sky-700">سوالات متداول </a></li>
+              <li><a href="./about-us.html" class="hover:tw-text-sky-700"> درباره ما</a></li>
+              <li><a href="./contact-us.html" class="hover:tw-text-sky-700"> تماس با‌ما</a></li>
+            </ul>
+          </div>
+          <div class="tw-flex tw-flex-col tw-gap-3">
+            <h5 class="tw-text-gray-900 tw-font-semibold tw-text-base">
+              راه های تماس
+            </h5>
+            <div class="tw-flex tw-gap-5 tw-items-center tw-flex-row">
+              <div class="tw-w-8 tw-h-8 tw-bg-gray-200 tw-rounded-md tw-flex tw-justify-center tw-items-center">
+                <img src="./public/assets/phone.svg" alt="phone">
+              </div>
+              <a href="tell:#" class="tw-text-gray-900 tw-text-sm hover:tw-text-sky-700">09216841841</a>
+            </div>
+            <div class="tw-flex tw-gap-5 tw-items-center tw-relative tw-flex-row">
+              <div class="tw-w-8 tw-h-8 tw-bg-gray-200 tw-rounded-md tw-flex tw-justify-center tw-items-center">
+                <img src="./public/assets/mail.svg" alt="mail">
+              </div>
+              <a href="#" class="tw-text-gray-900 tw-text-sm hover:tw-text-sky-700 ">info@benipo.shop</a>
+            </div>
+          </div>
+          <div class="tw-flex tw-flex-col tw-gap-3">
+            <h5 class="tw-text-gray-900 tw-font-semibold tw-text-base">
+              مجوز کسب و کار
+            </h5>
+            <div class="tw-flex tw-gap-8">
+              <a href="/" class="tw-p-2 tw-border tw-rounded-xl tw-w-32">
+                <img src="./public/assets/enamad.svg" class="tw-w-full tw-h-full" alt="enamad">
+              </a>
+              <a href="/" class="tw-p-2 tw-border tw-rounded-xl tw-w-32">
+                <img src="./public/assets/enamad.svg" class="tw-w-full tw-h-full" alt="enamad">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-flex tw-flex-col tw-gap-3 tw-mt-7">
+          <div
+            class="tw-w-full tw-bg-white tw-p-4 tw-rounded-xl tw-flex tw-flex-col lg:tw-flex-row tw-gap-4 tw-justify-between tw-items-center">
+            <p class="tw-text-base tw-text-gray-900 tw-font-semibold">
+              با ثبت ایمیل، از جدید ترین تخفیف‌ها با خبر شوید
+            </p>
+            <form class="tw-flex tw-gap-3 tw-w-full lg:tw-w-1/3">
+              <input placeholder="آدرس ایمیل" type="email" name="email"
+                class="tw-border tw-outline-none tw-rounded-md placeholder:tw-text-sm placeholder:tw-font-normal tw-px-4 tw-text-gray-700 tw-w-2/3">
+              <button
+                class="tw-bg-gray-100 tw-p-2 tw-text-gray-900 tw-text-sm tw-flex tw-justify-center tw-rounded-md tw-items-center hover:tw-scale-105 tw-w-1/3">
+                ارسال خبرنامه
+              </button>
+            </form>
+          </div>
+          <div class="tw-w-full tw-flex tw-justify-center tw-items-center tw-text-gray-600 tw-text-sm tw-pt-4">
+            تمامی حقوق متعلق به فروشگاه اینترنتی
+            <a href="./index.html" class="tw-px-2"> benipo.shop </a>
+            می باشد.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer
+      class="tw-flex lg:tw-hidden tw-text-sm tw-justify-evenly tw-w-full tw-border-t tw-shadow-inner tw-py-2 tw-fixed tw-bottom-0 tw-bg-white">
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-105">
+        <a href="./index.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="24" height="24" fill="none"
+          viewBox="0 0 24 24">
+          <path stroke-width="1.5"
+            d="m19.842 8.299-6-4.667a3 3 0 0 0-3.684 0l-6 4.667A2.998 2.998 0 0 0 3 10.667V18a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-7.333c0-.926-.427-1.8-1.158-2.368Z"
+            clip-rule="evenodd"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17h6"></path>
+        </svg>
+        <p>خانه</p>
+      </div>
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-110">
+        <a href="./all-products.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="24" height="24" fill="none"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+            d="M7.75 9.75H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2.75a2 2 0 0 1 2 2v2.75a2 2 0 0 1-2 2Zm11.25 0h-2.75a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2H19a2 2 0 0 1 2 2v2.75a2 2 0 0 1-2 2ZM7.75 21H5a2 2 0 0 1-2-2v-2.75a2 2 0 0 1 2-2h2.75a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2ZM19 21h-2.75a2 2 0 0 1-2-2v-2.75a2 2 0 0 1 2-2H19a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2Z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <p>دسته‌بندی</p>
+      </div>
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-110">
+        <a href="./cart.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="20" height="20" fill="none"
+          viewBox="0 0 20 20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+            d="M5 1.667 2.5 5v11.667a1.667 1.667 0 0 0 1.667 1.666h11.666a1.667 1.667 0 0 0 1.667-1.666V5L15 1.667H5ZM2.5 5h15">
+          </path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+            d="M13.333 8.333a3.334 3.334 0 0 1-6.666 0"></path>
+        </svg>
+        <p>سبد خرید</p>
+      </div>
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-110">
+        <a href="./login.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="20" height="20" fill="none"
+          viewBox="0 0 20 20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+            d="M15.833 17.5v-1.667A3.333 3.333 0 0 0 12.5 12.5h-5a3.333 3.333 0 0 0-3.333 3.333V17.5M10 9.167A3.333 3.333 0 1 0 10 2.5a3.333 3.333 0 0 0 0 6.667Z">
+          </path>
+        </svg>
+        <p>پروفایل من</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

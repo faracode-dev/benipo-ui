@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/output.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="tw-flex tw-flex-col tw-items-center tw-w-full">
+    <header class="tw-w-full tw-border-b">
+      <div class="tw-container tw-mx-auto tw-flex lg:tw-block tw-w-full tw-items-center tw-px-6 lg:tw-px-0">
+        <nav class="tw-flex tw-items-center tw-gap-5 tw-py-6">
+          <div class="tw-flex tw-items-center tw-gap-4 tw-w-full lg:tw-w-3/4 xl:tw-w-1/2">
+            <a href="./index.html" class="">
+              <img src="./public/assets/Logo.svg" alt="logo">
+              <span class="tw-font-medium tw-text-xs tw-whitespace-nowrap tw-hidden lg:tw-inline">
+                فروشگاه لوازم خانگی بنیپو
+              </span>
+            </a>
+            <label
+              class="tw-hidden md:tw-flex tw-mr-auto tw-w-full tw-border tw-border-gray-300/50 tw-text-gray-900 tw-text-sm tw-rounded-lg focus:tw-ring-blue-500 focus:tw-border-blue-500 tw-p-2.5 tw-bg-gray-100/30">
+              <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="24" height="24"
+                fill="none" viewBox="0 0 24 24">
+                <circle cx="11.059" cy="11.059" r="7.062" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.5"></circle>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m20.003 20.003-3.951-3.951">
+                </path>
+              </svg>
+              <input type="text"
+                class="placeholder:tw-text-sm placeholder:tw-font-normal placeholder:tw-text-gray-400 tw-outline-none tw-bg-gray-100/30">
+            </label>
+          </div>
+          <div class="tw-hidden tw-gap-3 tw-items-center tw-mr-auto lg:tw-flex">
+            <button class="tw-text-gray-900 tw-flex tw-gap-3 tw-w-full">
+              <a href="./login.html" class="tw-border tw-auto tw-rounded-lg tw-px-2.5 tw-py-2 hover:tw-text-sky-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline hover:tw-stroke-sky-700" width="20" height="20"
+                  fill="none" viewBox="0 0 20 20">
+                  <path stroke="currentColor" stroke-linecap=" round" stroke-linejoin="round" stroke-width="1.25"
+                    d="M15.833 17.5v-1.667A3.333 3.333 0 0 0 12.5 12.5h-5a3.333 3.333 0 0 0-3.333 3.333V17.5M10 9.167A3.333 3.333 0 1 0 10 2.5a3.333 3.333 0 0 0 0 6.667Z">
+                  </path>
+                </svg>
+                <span class="tw-text-sm">
+                  ورود|ثبت نام
+                </span>
+              </a>
+            </button>
+            <span class="tw-w-px tw-h-8 tw-block tw-bg-gray-200"></span>
+            <a href="./cart.html" type="button"
+              class="tw-relative tw-inline-flex tw-items-center tw-p-3 tw-text-sm tw-font-medium tw-text-center tw-text-white hover:tw-text-sky-700">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"
+                class="hover:tw-text-sky-700 tw-text-black">
+                <path stroke="currentColor" stroke-linecap=" round" stroke-linejoin="round" stroke-width="1.25"
+                  d="M5 1.667 2.5 5v11.667a1.667 1.667 0 0 0 1.667 1.666h11.666a1.667 1.667 0 0 0 1.667-1.666V5L15 1.667H5ZM2.5 5h15">
+                </path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                  d="M13.333 8.333a3.334 3.334 0 0 1-6.666 0"></path>
+              </svg>
+              <div
+                class="tw-absolute tw-inline-flex tw-items-center tw-justify-center tw-w-5 tw-h-5 tw-text-xs tw-font-bold tw-text-white tw-bg-red-500 tw-rounded-md tw-top-0 tw-end-0">
+                20
+              </div>
+            </a>
+          </div>
+        </nav>
+        <nav class="tw-hidden lg:tw-flex tw-pt-3 tw-w-full tw-items-center">
+          <ul class="tw-text-sm tw-flex tw-items-center tw-space-x-6 tw-space-x-reverse">
+            <li>
+              <a href="./all-products.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-4 tw-rounded-t-md tw-flex tw-justify-center tw-items-center tw-bg-gray-100 tw-font-semibold tw-transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-ml-1 tw-stroke-current" width="16"
+                  height="16" fill="none" viewBox="0 0 16 16">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                    d="M2.667 8h10.666M2.667 4h10.666M2.667 12h10.666"></path>
+                </svg>
+                دسته بندی
+              </a>
+            </li>
+            <li>
+              <a href="./contact-us.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-1 tw-font-medium tw-text-gray-900 tw-transition-colors">
+                تماس با ما
+              </a>
+            </li>
+            <li>
+              <a href="./about-us.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-1 tw-font-medium tw-text-gray-900 tw-transition-colors">
+                درباره ما
+              </a>
+            </li>
+            <li>
+              <a href="./faq.html"
+                class="tw-py-3 hover:tw-text-sky-700 tw-px-1 tw-font-medium tw-text-gray-900 tw-transition-colors">
+                سوالات متداول
+              </a>
+            </li>
+          </ul>
+          <div class="tw-text-sm tw-font-normal tw-text-gray-700 tw-mr-auto tw-align-middle">
+            <span class="after:tw-content-[':'] tw-font-medium"> پشتیبانی </span>
+            <a class="hover:tw-text-sky-700" href="#">02176584782</a>
+          </div>
+        </nav>
+        <div class="tw-mr-auto tw-inline lg:tw-hidden" @click="open = true">
+          <button class="tw-navbar-burger tw-flex tw-items-center tw-text-gray-600 hover:tw-text-sky-700">
+            <svg class="tw-block tw-h-4 tw-w-4 tw-fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <nav class="tw-hidden">
+          <nav class="tw-relative tw-px-4 tw-py-4 tw-flex tw-justify-center tw-items-center tw-bg-white">
+            <a href="./index.html" class="tw-flex tw-items-center tw-ml-auto">
+              <img src="./assets/images/logo.svg" alt="" class="h-6 sm:h-9">
+            </a>
+            <div class="tw-relative tw-w-full  md:tw-inline mr-4">
+              <div
+                class="tw-absolute tw-inset-y-0 tw-start-0 tw-flex tw-text-gray-300 tw-items-center tw-ps-3 tw-pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" class="tw-w-5 tw-h-5">
+                  <path
+                    d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                  </path>
+                </svg>
+              </div>
+              <input type="search" id="simple-search"
+                class="bg-gray-100 text-gray-900 text-xs font rounded-lg outline-none block w-96 ps-10 p-3"
+                placeholder="جستجو براساس  نام محصول و دسته بندی" required="">
+            </div>
+            <div class="tw-mr-auto" @click="open = true">
+              <button class="tw-navbar-burger tw-flex tw-items-center tw-text-gray-600 tw-p-3">
+                <svg class="tw-block tw-h-4 tw-w-4 tw-fill-current" viewbox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+              </button>
+            </div>
+          </nav>
+          <div class="tw-navbar-menu tw-relative tw-z-50" x-show="open"
+            x-transition:enter="transition origin-top ease-out duration-300"
+            x-transition:enter-start="transform -translate-y-full opacity-0"
+            x-transition:enter-end="transform translate-y-0 opacity-100"
+            x-transition:leave="transition origin-top ease-out duration-300" x-transition:leave-start="opacity-100"
+            x-transition:leave-end="opacity-0">
+            <div class="tw-navbar-backdrop tw-fixed tw-inset-0 tw-bg-gray-800 tw-opacity-25"></div>
+            <nav
+              class="tw-fixed tw-top-0 tw-left-0 tw-bottom-0 tw-flex tw-flex-col tw-w-5/6 tw-max-w-sm tw-py-6 tw-px-6 tw-bg-white tw-border-r tw-overflow-y-auto">
+              <div class="tw-flex tw-items-center tw-mb-8">
+                <div class="tw-relative tw-w-full md:tw-hidden">
+                  <div
+                    class="tw-absolute tw-inset-y-0 tw-start-0 tw-flex tw-text-gray-300 tw-items-center tw-ps-3 tw-pointer-events-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor"
+                      class="tw-w-5 tw-h-5">
+                      <path
+                        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                      </path>
+                    </svg>
+                  </div>
+                  <input type="search" id="simple-search"
+                    class="tw-bg-gray-100 tw-text-gray-900 tw-text-xs tw-font tw-rounded-lg tw-w-full tw-outline-none tw-block tw-ps-10 tw-p-3"
+                    placeholder="جستجو براساس  نام محصول و دسته بندی" required="">
+                </div>
+                <button class="tw-navbar-close tw-mr-4" @click="open = false">
+                  <svg class="tw-h-6 tw-w-6 tw-text-gray-600 tw-cursor-pointer hover:tw-opacity-40"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+              <div>
+                <ul>
+                  <li class="tw-mb-1">
+                    <a class="tw-block tw-p-4 tw-text-sm tw-font-semibold tw-text-gray-600 hover:tw-opacity-40 tw-rounded"
+                      href="./index.html">خانه</a>
+                  </li>
+                  <li class="tw-mb-1">
+                    <a class="tw-block tw-p-4 tw-text-sm tw-font-semibold tw-text-gray-600 hover:tw-opacity-40 tw-rounded"
+                      href="./about-us.html">درباره ما</a>
+                  </li>
+                  <li class="tw-mb-1">
+                    <a class="tw-block tw-p-4 tw-text-sm tw-font-semibold tw-text-gray-600 hover:tw-opacity-40 tw-rounded"
+                      href="./contact-us.html">تماس باما</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tw-mt-auto">
+                <a href="./profile.html"
+                  class="tw-py-2 tw-px-5 tw-flex tw-justify-center tw-gap-2 tw-text-sm tw-font-medium tw-text-gray-900 focus:tw-outline-none tw-bg-white tw-rounded-lg tw-border tw-border-gray-200 hover:tw-bg-gray-100 hover:tw-text-blue-700 focus:tw-z-10 focus:tw-ring-4 focus:tw-ring-gray-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-5 tw-h-5 tw-inline" viewbox="0 0 24 24"
+                    fill="currentColor">
+                    <path
+                      d="M20 22H18V20C18 18.3431 16.6569 17 15 17H9C7.34315 17 6 18.3431 6 20V22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13ZM12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z">
+                    </path>
+                  </svg>
+                  <div>
+                    پروفایل من
+                  </div>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main
+      class="tw-container tw-mx-auto tw-px-6 lg:tw-px-0 tw-w-full tw-flex tw-justify-center tw-flex-col tw-pb-20 lg:tw-pb-0 tw-items-center tw-mt-5 tw-gap-6">
+      <div class="tw-hidden md:tw-flex tw-justify-start tw-w-full">
+        <ul class="tw-flex tw-gap-2 tw-text-gray-400 tw-text-xs tw-font-normal">
+          <li><a href="#">لورم ایپسوم</a></li>
+          /
+          <li><a href="#"> کالای دیجیتال</a></li>
+          /
+          <li><a href="#"> هدفون، هدست، میکروفون</a></li>
+          /
+          <li><a href="#"> هدفون، هدست و هندزفری</a></li>
+        </ul>
+      </div>
+      <div class="tw-w-full tw-flex tw-justify-center">
+        <div class="tw-flex tw-w-full tw-gap-10 tw-flex-col tw-items-center lg:tw-flex-row lg:tw-items-start">
+          <div
+            class="tw-flex tw-flex-col md:tw-flex-row lg:tw-flex-col tw-gap-3 tw-w-full lg:tw-w-auto tw-items-center">
+            <div class="tw-relative tw-w-full">
+              <img src="./public/assets/airpodlg.svg">
+              <div class="tw-flex tw-flex-col tw-absolute tw-top-0 tw-right-0 tw-mt-5 tw-mr-5">
+                <button
+                  class="tw-rounded-t-md tw-bg-gray-500 tw-w-10 tw-h-10 tw-text-white tw-flex tw-items-center tw-justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    fill="currentColor">
+                    <path
+                      d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z">
+                    </path>
+                  </svg>
+                </button>
+                <div class="tw-w-full tw-bg-gray-100 tw-h-px"></div>
+                <button
+                  class="tw-rounded-b-md tw-bg-gray-500 tw-w-10 tw-h-10 tw-text-white tw-flex tw-items-center tw-justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    fill="currentColor">
+                    <path
+                      d="M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="tw-flex md:tw-flex-col lg:tw-flex-row tw-w-full md:tw-w-1/3 lg:tw-w-full tw-justify-between md:tw-gap-10">
+              <div class="tw-w-32 tw-h-32 tw-flex tw-justify-center tw-items-center tw-border tw-rounded-xl">
+                <img src="./public/assets/airpod.svg">
+              </div>
+              <div
+                class="tw-w-32 tw-h-32 tw-flex tw-justify-center tw-items-center tw-border tw-rounded-xl tw-py-3 lg:tw-py-0">
+                <img src="./public/assets/airpod3.svg">
+              </div>
+              <a
+                class="tw-w-32 tw-h-32 tw-flex tw-justify-center tw-py-12 lg:tw-py-0 tw-items-center tw-border tw-rounded-xl">
+                <img src="./public/assets/dots.svg">
+              </a>
+            </div>
+          </div>
+          <div class="tw-flex tw-justify-between tw-w-full max-xl:tw-flex-col max-xl:tw-items-center">
+            <div class="tw-w-2/4 max-xl:tw-w-full tw-flex tw-flex-col">
+              <div class="tw-flex tw-flex-col tw-gap-3 tw-border-b tw-pb-3">
+                <a href="#" class="tw-text-blue-500 tw-text-xs">اپل / هدفون، هدست و هندزفری</a>
+                <h2 class="tw-text-base tw-font-bold tw-text-justify">
+                  هدفون بی سیم اپل مدل AirPods Pro 2nd Generation همراه با
+                  محفظه شارژ
+                </h2>
+              </div>
+              <div class="tw-flex tw-flex-col tw-gap-3 tw-border-b tw-py-5">
+                <p class="tw-text-base tw-font-bold tw-text-justify">رنگ</p>
+                <div class="tw-flex tw-gap-5">
+                  <input id="white" class="tw-peer/white tw-sr-only" type="radio" name="color" checked />
+                  <label for="white"
+                    class="peer-checked/white:tw-ring-4 tw-rounded-full tw-bg-white tw-p-3 tw-border tw-border-gray-300 tw-cursor-pointer"></label>
+
+                  <input id="red" class="tw-peer/red tw-sr-only" type="radio" name="color" />
+                  <label for="red"
+                    class="peer-checked/red:tw-ring-4 tw-rounded-full tw-bg-red-700 tw-p-3 tw-border tw-border-gray-300 tw-cursor-pointer"></label>
+
+                  <input id="blue" class="tw-peer/blue tw-sr-only" type="radio" name="color" />
+                  <label for="blue"
+                    class="peer-checked/blue:tw-ring-4 tw-rounded-full tw-bg-blue-700 tw-p-3 tw-border tw-border-gray-300 tw-cursor-pointer"></label>
+                  <input type="radio" name="color" id="red" class="tw-sr-only tw-peer">
+                </div>
+              </div>
+              <div class="tw-py-5 tw-flex tw-flex-col tw-gap-3">
+                <p class="tw-text-base tw-font-bold tw-text-justify">ویژگی ها</p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  نوع گوشی : <span class="tw-text-gray-900">2گوشی</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  رابط ها :<span class="tw-text-gray-900">USB Type-C</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  عمر باتری :<span class="tw-text-gray-900">۶ ساعت پخش موسیقی</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  عمر باتری محفظه شارژ :<span class="tw-text-gray-900">تا ۳۰ ساعت</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  نسخه بلوتوث :<span class="tw-text-gray-900">۵.۳</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  نوع اتصال :<span class="tw-text-gray-900">بی‌سیم</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  رابط‌ها :<span class="tw-text-gray-900">USB Type-C</span>
+                </p>
+                <p class="tw-text-gray-400 tw-text-xs tw-flex tw-gap-2">
+                  مناسب برای :<span class="tw-text-gray-900">مکالمه</span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="tw-bg-gray-100 tw-h-fit tw-flex tw-flex-col tw-gap-3 tw-rounded-xl tw-p-5 tw-w-2/5 max-xl:tw-w-full">
+              <div class="tw-flex tw-justify-between tw-text-sm">
+                <p class="tw-text-gray-900">فروشنده</p>
+                <a href="#" class="tw-text-sky-900 tw-underline">۳ فروشنده دیگر</a>
+              </div>
+              <div class="tw-flex tw-gap-1 tw-text-sm tw-text-gray-900">
+                <img src="./public/assets/logosm.svg">
+                <p>بنیپو</p>
+              </div>
+              <div class="tw-w-full tw-h-px tw-bg-gray-200"></div>
+              <div class="tw-flex tw-gap-1 tw-text-sm tw-text-gray-900">
+                <img src="./public/assets/shield.svg">
+                <p>گارانتی ۶ ماهه آروند</p>
+              </div>
+              <div class="tw-w-full tw-h-px tw-bg-gray-200"></div>
+              <div class="tw-flex tw-gap-1 tw-text-sm tw-text-gray-900">
+                <img src="./public/assets/bh.svg">
+                <p>۱۵۰ امتیاز بِنی‌هاب</p>
+              </div>
+              <button
+                class="tw-border tw-border-sky-800 tw-text-sky-800 tw-rounded-md tw-px-1 tw-py-2 tw-flex tw-justify-between tw-text-xs">
+                <p class="tw-text-gray-900">
+                  با قیمت ۱۰,۶۵۰,۰۰۰ تومان از فروشندگان دیگر
+                </p>
+                <svg class="tw-inline tw-stroke-current" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="none" viewBox="0 0 16 16">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 12 6 8l4-4"></path>
+                </svg>
+              </button>
+              <div class="tw-flex tw-gap-1 tw-items-center">
+                <p class="tw-text-gray-900 tw-font-semibold tw-text-base">قیمت</p>
+                <div class="tw-rounded-md tw-border tw-p-1 tw-border-sky-800 tw-text-sky-800 tw-text-sm">
+                  20%
+                </div>
+              </div>
+              <div class="tw-flex tw-gap-2 tw-items-center">
+                <span class="tw-text-base tw-text-gray-900 tw-font-semibold">
+                  14,200,000 تومان
+                </span>
+                <span class="tw-text-gray-400 tw-line-through">14,200,000</span>
+              </div>
+              <button
+                class="tw-px-5 tw-py-3 tw-justify-center tw-items-center tw-rounded-md tw-bg-sky-800 tw-text-white tw-font-semibold tw-text-base tw-flex tw-gap-3 hover:tw-scale-105 focus:tw-ring-4 focus:tw-ring-sky-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                  <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                    d="M5 1.667 2.5 5v11.667a1.667 1.667 0 0 0 1.667 1.666h11.666a1.667 1.667 0 0 0 1.667-1.666V5L15 1.667H5ZM2.5 5h15" />
+                  <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+                    d="M13.333 8.333a3.334 3.334 0 0 1-6.666 0" />
+                </svg>
+                <p>افزودن به سبد خرید</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tw-w-full tw-flex tw-justify-center tw-flex-col tw-items-center tw-mt-5">
+        <div class="tw-flex tw-flex-col tw-gap-4">
+          <div class="tw-hidden md:tw-block tw-space-y-4">
+            <h2 class="tw-text-base tw-text-gray-900 tw-font-semibold">
+              فروشندگان این کالا
+            </h2>
+            <div class="tw-bg-gray-100 tw-flex tw-justify-between tw-items-center tw-px-5 tw-py-3 tw-rounded-md">
+              <div class="tw-flex tw-gap-3 tw-text-sm tw-items-center">
+                <div class="tw-flex tw-gap-2 tw-items-center">
+                  <img src="./public/assets/logosm.svg">
+                  <p>بنیپو</p>
+                </div>
+                <div class="tw-w-px tw-h-5 tw-bg-gray-300 tw-flex"></div>
+                <div class="tw-flex tw-gap-2 tw-items-center">
+                  <img src="./public/assets/shield.svg" class="tw-w-4 tw-h-4">
+                  <p>گارانتی ۶ ماهه آروند</p>
+                </div>
+                <div class="tw-w-px tw-h-5 tw-bg-gray-300"></div>
+                <div>
+                  <p>قیمت: <span>10,650,000</span> تومان</p>
+                </div>
+              </div>
+              <button
+                class="tw-bg-sky-800 tw-p-2 tw-rounded-md hover:tw-scale-105 focus:tw-ring-4 tw-ring-sky-200 tw-text-white">
+                افزودن به سبد
+              </button>
+            </div>
+            <div class="tw-bg-gray-100 tw-flex tw-justify-between tw-items-center tw-px-5 tw-py-3 tw-rounded-md">
+              <div class="tw-flex tw-gap-3 tw-text-sm tw-items-center">
+                <div class="tw-flex tw-gap-2 tw-items-center">
+                  <img src="./public/assets/logosm.svg">
+                  <p>بنیپو</p>
+                </div>
+                <div class="tw-w-px tw-h-5 tw-bg-gray-300 tw-flex"></div>
+                <div class="tw-flex tw-gap-2 tw-items-center">
+                  <img src="./public/assets/shield.svg" class="tw-w-4 tw-h-4">
+                  <p>گارانتی ۶ ماهه آروند</p>
+                </div>
+                <div class="tw-w-px tw-h-5 tw-bg-gray-300"></div>
+                <div>
+                  <p>قیمت: <span>10,650,000</span> تومان</p>
+                </div>
+              </div>
+              <button
+                class="tw-bg-sky-800 tw-p-2 tw-rounded-md hover:tw-scale-105 focus:tw-ring-4 tw-ring-sky-200 tw-text-white">
+                افزودن به سبد
+              </button>
+            </div>
+            <div class="tw-bg-gray-100 tw-flex tw-justify-between tw-items-center tw-px-5 tw-py-3 tw-rounded-md">
+              <div class="tw-flex tw-gap-3 tw-text-sm tw-items-center">
+                <div class="tw-flex tw-gap-2 tw-items-center">
+                  <img src="./public/assets/logosm.svg">
+                  <p>بنیپو</p>
+                </div>
+                <div class="tw-w-px tw-h-5 tw-bg-gray-300 tw-flex"></div>
+                <div class="tw-flex tw-gap-2 tw-items-center">
+                  <img src="./public/assets/shield.svg" class="tw-w-4 tw-h-4">
+                  <p>گارانتی ۶ ماهه آروند</p>
+                </div>
+                <div class="tw-w-px tw-h-5 tw-bg-gray-300"></div>
+                <div>
+                  <p>قیمت: <span>10,650,000</span> تومان</p>
+                </div>
+              </div>
+              <button
+                class="tw-bg-sky-800 tw-p-2 tw-rounded-md hover:tw-scale-105 focus:tw-ring-4 tw-ring-sky-200 tw-text-white">
+                افزودن به سبد
+              </button>
+            </div>
+          </div>
+          <div class="tw-w-full tw-bg-gray-100 tw-p-5 tw-rounded-md">
+            <ul class="tw-flex tw-gap-3 tw-w-full tw-border-b tw-text-sm">
+              <li>
+                <button
+                  class="tw-pb-3 tw-border-b tw-border-opacity-0 tw-border-sky-800 focus:tw-border-opacity-100 focus:tw-text-sky-800">
+                  <a>معرفی</a>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="tw-pb-3 tw-border-b tw-border-opacity-0 tw-border-sky-800 focus:tw-border-opacity-100 focus:tw-text-sky-800">
+                  <a>مشخصات</a>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="tw-pb-3 tw-border-b tw-border-opacity-0 tw-border-sky-800 focus:tw-border-opacity-100 focus:tw-text-sky-800">
+                  <a>دیدگاه کاربران</a>
+                </button>
+              </li>
+            </ul>
+            <div class="tw-flex tw-gap-5 tw-items-center tw-mt-5">
+              <p class="tw-text-sm tw-font-light tw-leading-7 tw-text-justify tw-w-full">لورم ایپسوم متن ساختگی با تولید
+                سادگی
+                نامفهوم از
+                صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد
+                کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا
+                مورد استفاده قرار گیرد.</p>
+              <div class="tw-w-28 tw-h-28 tw-mr-auto tw-hidden lg:tw-inline">
+                <img src="./public/assets/airpod.svg" class="tw-w-full">
+              </div>
+            </div>
+            <table>
+              <tbody class="tw-flex tw-flex-col tw-gap-7 tw-mt-5">
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">اقلام همراه هدفون</td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">
+                    کیس شارژر بی سیم چهار عدد سرگوشی (سایزهای بسیار کوچک، کوچک،
+                    متوسط و بزرگ) دفترچه راهنما کابل تبدیل لایتنینگ به USB-C
+                  </td>
+                </tr>
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">عمر باتری</td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">۶ ساعت پخش موسیقی</td>
+                </tr>
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">نوع گوشی</td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">دو گوشی</td>
+                </tr>
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">
+                    عمر باتری محفظه شارژ
+                  </td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">تا ۳۰ ساعت</td>
+                </tr>
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">نسخه بلوتوث</td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">۵.۳</td>
+                </tr>
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">سایر مشخصات</td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">
+                    قابلیت کاهش نویز دوبرابری نسبت به نسل گذشته تا ۴۸,۰۰۰ بار در
+                    ثانیه مجهز به چیپست Apple H۲ اسپیکر داخلی محفظه برای موقعیت
+                    یابی استاندارد IPX۴ قابلیت شارژ به وسیله‌ی شارژر بی سیم
+                  </td>
+                </tr>
+                <tr class="tw-flex">
+                  <td class="tw-text-gray-400 tw-text-sm tw-w-1/3 md:tw-w-1/6">نوع اتصال</td>
+                  <td class="tw-text-gray-900 tw-text-sm tw-w-2/3 md:tw-h-5/6 tw-text-justify">بی‌سیم</td>
+                </tr>
+              </tbody>
+            </table>
+            <form>
+              <div class="tw-flex tw-gap-2 tw-pt-5 max-md:tw-flex-col">
+                <input name="name"
+                  class="tw-w-full tw-bg-transparent tw-border-gray-300 tw-outline-none placeholder:tw-text-sm tw-border tw-border-dashed tw-px-3 tw-py-2 tw-rounded-lg"
+                  placeholder="نام و نام خانوادگی" required="">
+
+                <input name="title"
+                  class="tw-w-full tw-border-gray-300 tw-bg-transparent tw-outline-none placeholder:tw-text-sm tw-border tw-border-dashed tw-px-3 tw-py-2 tw-rounded-lg"
+                  placeholder=" عنوان دیدگاه " required="">
+              </div>
+              <textarea name="comment" id="" cols="30" rows="5"
+                class="tw-w-full tw-border-gray-300 tw-bg-transparent tw-outline-none placeholder:tw-text-sm tw-border tw-border-dashed tw-px-3 tw-py-2 tw-rounded-lg tw-mt-3"
+                placeholder="متن دیدگاه"></textarea>
+              <div class="tw-w-full tw-justify-end tw-flex tw-text-white tw-text-sm tw-mt-3">
+                <button
+                  class="tw-bg-sky-800 tw-p-2 tw-rounded-md hover:tw-scale-105 focus:tw-ring-4 tw-ring-sky-200">ارسال
+                  دیدگاه</button>
+              </div>
+              <div class="tw-w-full tw-bg-gray-300 tw-h-px tw-mt-3"></div>
+              <div class="tw-mt-3 tw-flex tw-flex-col tw-gap-4">
+                <div class="tw-flex tw-gap-3 tw-items-start">
+                  <img src="./public/assets/u1.svg">
+                  <div class="tw-flex tw-flex-col tw-gap-3 tw-mt-3">
+                    <p class="tw-text-xs tw-text-gray-400">احسان منصوری</p>
+                    <p class="tw-text-xs tw-text-gray-900 tw-leading-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                      صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است.</p>
+                  </div>
+                </div>
+                <div class="tw-flex tw-gap-3 tw-items-start">
+                  <img src="./public/assets/u2.svg">
+                  <div class="tw-flex tw-flex-col tw-gap-3 tw-mt-3">
+                    <p class="tw-text-xs tw-text-gray-400">نرگس احمدی </p>
+                    <p class="tw-text-xs tw-text-gray-900 tw-leading-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                      صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                      است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                      باشد،
+                      کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+                      نرم
+                      افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد.</p>
+                  </div>
+                </div>
+                <div class="tw-flex tw-gap-3 tw-items-start">
+                  <img src="./public/assets/u3.svg">
+                  <div class="tw-flex tw-flex-col tw-gap-3 tw-mt-3">
+                    <p class="tw-text-xs tw-text-gray-400">مریم شکوهی </p>
+                    <p class="tw-text-xs tw-text-gray-900 tw-leading-5 tw-font-bold"> محصول عالی</p>
+                    <p class="tw-text-xs tw-text-gray-900 tw-leading-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                      صنعت چاپ،
+                      و با استفاده از طراحان گرافیک است.</p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <section class="tw-w-full tw-border tw-border-gray-200 tw-rounded-lg tw-my-5">
+          <div class="tw-text-gray-900 tw-flex tw-text-sm tw-justify-between tw-py-4 tw-px-6 tw-border-b">
+            <p>محصولات مشابه</p>
+            <a href="#" class="tw-flex tw-gap-3 tw-items-center hover:tw-text-sky-700">
+              <p>مشاهده همه</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path
+                  d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z">
+                </path>
+              </svg>
+            </a>
+          </div>
+          <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 lg:tw-grid-cols-4 xl:tw-grid-cols-5">
+            <article
+              class="tw-border-l tw-p-5 tw-flex tw-justify-center tw-items-center tw-flex-col tw-gap-8 tw-relative">
+              <img src="./public/assets/product.svg" alt="product">
+              <p class="tw-text-xs tw-px-7 tw-text-gray-900 tw-font-normal">
+                گوشی موبایل اپل مدل iPhone 14 ظرفیت 128 گیگابایت و رم 4
+                گیگابایت...
+              </p>
+              <div class="tw-w-full tw-text-center tw-px-7">
+                <p class="tw-text-gray-900 tw-text-sm tw-font-bold">
+                  69,200,000 تومان
+                </p>
+              </div>
+              <a href="./single-info.html" class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full"></a>
+            </article>
+            <article
+              class="tw-border-l tw-p-5 tw-flex tw-justify-center tw-items-center tw-flex-col tw-gap-8 tw-relative">
+              <img src="./public/assets/product.svg" alt="product">
+              <p class="tw-text-xs tw-px-7 tw-text-gray-900 tw-font-normal">
+                گوشی موبایل اپل مدل iPhone 14 ظرفیت 128 گیگابایت و رم 4
+                گیگابایت...
+              </p>
+              <div class="tw-w-full tw-text-center tw-px-7">
+                <p class="tw-text-gray-900 tw-text-sm tw-font-bold">
+                  69,200,000 تومان
+                </p>
+              </div>
+              <a href="./single-info.html" class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full"></a>
+            </article>
+            <article
+              class="tw-border-l tw-p-5 tw-flex tw-justify-center tw-items-center tw-flex-col tw-gap-8 tw-relative">
+              <img src="./public/assets/product.svg">
+              <p class="tw-text-xs tw-px-7 tw-text-gray-900 tw-font-normal">
+                گوشی موبایل اپل مدل iPhone 14 ظرفیت 128 گیگابایت و رم 4
+                گیگابایت...
+              </p>
+              <div class="tw-w-full tw-text-center tw-px-7">
+                <p class="tw-text-gray-900 tw-text-sm tw-font-bold">
+                  69,200,000 تومان
+                </p>
+              </div>
+              <a href="./single-info.html" class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full"></a>
+            </article>
+            <article
+              class="tw-border-l tw-p-5 tw-flex tw-justify-center tw-items-center tw-flex-col tw-gap-8 tw-relative">
+              <img src="./public/assets/product.svg" alt="product">
+              <p class="tw-text-xs tw-px-7 tw-text-gray-900 tw-font-normal">
+                گوشی موبایل اپل مدل iPhone 14 ظرفیت 128 گیگابایت و رم 4
+                گیگابایت...
+              </p>
+              <div class="tw-w-full tw-text-center tw-px-7">
+                <p class="tw-text-gray-900 tw-text-sm tw-font-bold">
+                  69,200,000 تومان
+                </p>
+              </div>
+              <a href="./single-info.html" class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full"></a>
+            </article>
+            <article
+              class="tw-p-5 max-xl:tw-border-l tw-flex tw-justify-center tw-items-center tw-flex-col tw-gap-8 tw-relative">
+              <img src="./public/assets/product.svg" alt="product">
+              <p class="tw-text-xs tw-px-7 tw-text-gray-900 tw-font-normal">
+                گوشی موبایل اپل مدل iPhone 14 ظرفیت 128 گیگابایت و رم 4
+                گیگابایت...
+              </p>
+              <div class="tw-w-full tw-text-center tw-px-7">
+                <p class="tw-text-gray-900 tw-text-sm tw-font-bold">
+                  69,200,000 تومان
+                </p>
+              </div>
+              <a href="./single-info.html" class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full"></a>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="tw-w-full tw-border-t tw-bg-gray-100 tw-border-gray-30 tw-flex tw-pb-16 lg:tw-pb-0">
+      <div class="tw-container tw-mx-auto tw-py-8">
+        <div class="tw-grid tw-col-span-1 md:tw-col-span-2 tw-px-6 lg:tw-grid-cols-5 tw-gap-y-6 lg:tw-gap-6">
+          <div class="tw-col-span-1 md:tw-col-span-2">
+            <div>
+              <a href="#">
+                <img src="./public/assets/Logo.svg" alt="logo" class="tw-pb-4 tw-border-b tw-border-gray-300">
+              </a>
+            </div>
+            <div class="tw-mx-auto">
+              <p class="tw-text-gray-500 tw-text-sm tw-whitespace-normal">
+                یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+                متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست
+                مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛
+                ویژگی‌هایی
+                که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و
+                توانسته از این طریق مشتریان ثابت خود را داشته باشد. فروشگاه
+                اینترنتی بنیپو با تنوعی بی نظیر از کالاها و قیمت های بی نظیر به
+                دنبال تسهیل خرید سریع و آسان شما میباشد.
+              </p>
+            </div>
+          </div>
+          <div class="tw-flex tw-flex-col tw-gap-3">
+            <h5 class="tw-text-gray-700 tw-font-semibold tw-text-base">صفحات</h5>
+            <ul class="tw-text-gray-700 tw-font-normal tw-text-sm tw-flex tw-flex-col tw-gap-5">
+              <li><a href="./index.html" class="hover:tw-text-sky-700">صفحه اصلی</a></li>
+              <li><a href="./all-products.html" class="hover:tw-text-sky-700">فروشگاه</a></li>
+              <li><a href="./faq.html" class="hover:tw-text-sky-700">سوالات متداول </a></li>
+              <li><a href="./about-us.html" class="hover:tw-text-sky-700"> درباره ما</a></li>
+              <li><a href="./contact-us.html" class="hover:tw-text-sky-700"> تماس با‌ما</a></li>
+            </ul>
+          </div>
+          <div class="tw-flex tw-flex-col tw-gap-3">
+            <h5 class="tw-text-gray-900 tw-font-semibold tw-text-base">
+              راه های تماس
+            </h5>
+            <div class="tw-flex tw-gap-5 tw-items-center tw-flex-row">
+              <div class="tw-w-8 tw-h-8 tw-bg-gray-200 tw-rounded-md tw-flex tw-justify-center tw-items-center">
+                <img src="./public/assets/phone.svg" alt="phone">
+              </div>
+              <a href="tell:#" class="tw-text-gray-900 tw-text-sm hover:tw-text-sky-700">09216841841</a>
+            </div>
+            <div class="tw-flex tw-gap-5 tw-items-center tw-relative tw-flex-row">
+              <div class="tw-w-8 tw-h-8 tw-bg-gray-200 tw-rounded-md tw-flex tw-justify-center tw-items-center">
+                <img src="./public/assets/mail.svg" alt="mail">
+              </div>
+              <a href="#" class="tw-text-gray-900 tw-text-sm hover:tw-text-sky-700 ">info@benipo.shop</a>
+            </div>
+          </div>
+          <div class="tw-flex tw-flex-col tw-gap-3">
+            <h5 class="tw-text-gray-900 tw-font-semibold tw-text-base">
+              مجوز کسب و کار
+            </h5>
+            <div class="tw-flex tw-gap-8">
+              <a href="/" class="tw-p-2 tw-border tw-rounded-xl tw-w-32">
+                <img src="./public/assets/enamad.svg" class="tw-w-full tw-h-full" alt="enamad">
+              </a>
+              <a href="/" class="tw-p-2 tw-border tw-rounded-xl tw-w-32">
+                <img src="./public/assets/enamad.svg" class="tw-w-full tw-h-full" alt="enamad">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-flex tw-flex-col tw-gap-3 tw-mt-7">
+          <div
+            class="tw-w-full tw-bg-white tw-p-4 tw-rounded-xl tw-flex tw-flex-col lg:tw-flex-row tw-gap-4 tw-justify-between tw-items-center">
+            <p class="tw-text-base tw-text-gray-900 tw-font-semibold">
+              با ثبت ایمیل، از جدید ترین تخفیف‌ها با خبر شوید
+            </p>
+            <form class="tw-flex tw-gap-3 tw-w-full lg:tw-w-1/3">
+              <input placeholder="آدرس ایمیل" type="email" name="email"
+                class="tw-border tw-outline-none tw-rounded-md placeholder:tw-text-sm placeholder:tw-font-normal tw-px-4 tw-text-gray-700 tw-w-2/3">
+              <button
+                class="tw-bg-gray-100 tw-p-2 tw-text-gray-900 tw-text-sm tw-flex tw-justify-center tw-rounded-md tw-items-center hover:tw-scale-105 tw-w-1/3">
+                ارسال خبرنامه
+              </button>
+            </form>
+          </div>
+          <div class="tw-w-full tw-flex tw-justify-center tw-items-center tw-text-gray-600 tw-text-sm tw-pt-4">
+            تمامی حقوق متعلق به فروشگاه اینترنتی
+            <a href="./index.html" class="tw-px-2"> benipo.shop </a>
+            می باشد.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer
+      class="tw-flex lg:tw-hidden tw-text-sm tw-justify-evenly tw-w-full tw-border-t tw-shadow-inner tw-py-2 tw-fixed tw-bottom-0 tw-bg-white">
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-105">
+        <a href="./index.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="24" height="24" fill="none"
+          viewBox="0 0 24 24">
+          <path stroke-width="1.5"
+            d="m19.842 8.299-6-4.667a3 3 0 0 0-3.684 0l-6 4.667A2.998 2.998 0 0 0 3 10.667V18a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-7.333c0-.926-.427-1.8-1.158-2.368Z"
+            clip-rule="evenodd"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17h6"></path>
+        </svg>
+        <p>خانه</p>
+      </div>
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-110">
+        <a href="./all-products.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="24" height="24" fill="none"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+            d="M7.75 9.75H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2.75a2 2 0 0 1 2 2v2.75a2 2 0 0 1-2 2Zm11.25 0h-2.75a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2H19a2 2 0 0 1 2 2v2.75a2 2 0 0 1-2 2ZM7.75 21H5a2 2 0 0 1-2-2v-2.75a2 2 0 0 1 2-2h2.75a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2ZM19 21h-2.75a2 2 0 0 1-2-2v-2.75a2 2 0 0 1 2-2H19a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2Z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <p>دسته‌بندی</p>
+      </div>
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-110">
+        <a href="./cart.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="20" height="20" fill="none"
+          viewBox="0 0 20 20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+            d="M5 1.667 2.5 5v11.667a1.667 1.667 0 0 0 1.667 1.666h11.666a1.667 1.667 0 0 0 1.667-1.666V5L15 1.667H5ZM2.5 5h15">
+          </path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+            d="M13.333 8.333a3.334 3.334 0 0 1-6.666 0"></path>
+        </svg>
+        <p>سبد خرید</p>
+      </div>
+      <div class="tw-relative tw-flex tw-flex-col tw-gap-1 tw-items-center tw-text-gray-500 hover:tw-scale-110">
+        <a href="./login.html" class="tw-absolute tw-opacity-0 tw-w-full tw-h-full"></a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="tw-inline tw-stroke-current" width="20" height="20" fill="none"
+          viewBox="0 0 20 20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"
+            d="M15.833 17.5v-1.667A3.333 3.333 0 0 0 12.5 12.5h-5a3.333 3.333 0 0 0-3.333 3.333V17.5M10 9.167A3.333 3.333 0 1 0 10 2.5a3.333 3.333 0 0 0 0 6.667Z">
+          </path>
+        </svg>
+        <p>پروفایل من</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
